@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/speak"
+        android:orderInCategory="350"
+        android:title="Voice commands"
+        android:icon="@drawable/ic_baseline_record_voice_over_24"
+        app:showAsAction="always">
+    </item>
+
+    <item android:title="Menu"
+        android:iconTint="@color/white"
+        android:orderInCategory="400"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_language_24">
+        <menu>
+            <item
+                app:itemIconSize="5dp"
+                android:icon="@drawable/ic_greece"
+                android:id="@+id/greek"
+                android:orderInCategory="300"
+                android:title="Greek"
+                app:showAsAction="collapseActionView">
+            </item>
+            <item
+                app:itemIconSize="12dp"
+                android:icon="@drawable/ic_england"
+                android:id="@+id/english"
+                android:orderInCategory="300"
+                android:title="English"
+                app:showAsAction="collapseActionView">
+            </item>
+        </menu>
+    </item>
+
+</menu>

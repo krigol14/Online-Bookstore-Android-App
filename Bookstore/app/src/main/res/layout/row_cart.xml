@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/row_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textColor="#0F0F0F"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/row_price_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="88dp"
+            android:layout_marginRight="140dp"
+            android:text="@string/total_price"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/row_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="88dp"
+            android:layout_marginRight="140dp"
+            android:text="price"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/part_price_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/part_price"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/part_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="140dp"
+            android:text="part_price"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/row_quantity_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:text="@string/quantity"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/row_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="64dp"
+            android:text="quantity"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/row_delete"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/ic_baseline_remove_shopping_cart_24" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

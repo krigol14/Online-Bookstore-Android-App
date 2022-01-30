@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bookstore</string>
+    <string name="available_quantity">"Απόθεμα: "</string>
+    <string name="bookstore_application">ΕΦΑΡΜΟΓΗ ΒΙΒΛΙΟΠΩΛΕΙΟΥ</string>
+    <string name="sign_in">ΣΥΝΔΕΣΗ</string>
+    <string name="sign_up">ΕΓΓΡΑΦΗ</string>
+    <string name="not_registered">Δεν έχετε λογαριασμό;</string>
+    <string name="e_mail">"Ηλεκτρονικό ταχυδρομείο "</string>
+    <string name="password">Κωδικός</string>
+    <string name="available_books">ΔΙΑΘΕΣΙΜΑ ΒΙΒΛΙΑ</string>
+    <string name="sign_up_page">ΣΕΛΙΔΑ ΕΓΓΡΑΦΗΣ</string>
+    <string name="reg_email">Ηλεκτρονικό ταχυδρομείο</string>
+    <string name="reg_passwd">Κωδικός</string>
+    <string name="conf_passwd">Επαλήθευση κωδικού</string>
+    <string name="reg_signup">ΕΓΓΡΑΦΗ</string>
+    <string name="part_price">"τιμή μονάδας: "</string>
+    <string name="quantity">"ποσότητα: "</string>
+    <string name="total_price">"συνολική τιμή: "</string>
+    <string name="speak">ΜΙΛΑ</string>
+    <string name="sing_as">"Σύνδεση ως: "</string>
+    <string name="cart_items">ΠΡΟΪΟΝΤΑ ΚΑΛΑΘΙΟΥ</string>
+</resources>

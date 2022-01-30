@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/row_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="154dp"
+            android:layout_marginTop="4dp"
+            android:text="title"
+            android:textColor="#0F0F0F"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/row_image"
+            android:layout_width="183dp"
+            android:layout_height="181dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="240dp" />
+
+        <TextView
+            android:id="@+id/row_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="154dp"
+            android:layout_marginTop="60dp"
+            android:text="price"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/isbn_text"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="154dp"
+            android:layout_marginTop="90dp"
+            android:text="ISBN: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/row_isbn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="90dp"
+            android:text="isbn"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/row_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="154dp"
+            android:layout_marginTop="145dp"
+            android:text="quantity"
+            android:textSize="10sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/row_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="154dp"
+            android:layout_marginTop="160dp"
+            android:text="description"
+            android:textSize="10sp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

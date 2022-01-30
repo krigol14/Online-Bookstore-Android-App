@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Bookstore</string>
+    <string name="available_quantity">Available quantity: </string>
+    <string name="bookstore_application">BOOKSTORE APPLICATION</string>
+    <string name="sign_in">LOGIN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="not_registered">Not registered yet?</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="available_books">AVAILABLE BOOKS</string>
+    <string name="sign_up_page">SIGN UP PAGE</string>
+    <string name="reg_email">E-mail</string>
+    <string name="reg_passwd">Password</string>
+    <string name="conf_passwd">Confirm password</string>
+    <string name="reg_signup">SIGN UP</string>
+    <string name="part_price">part price: </string>
+    <string name="quantity">quantity: </string>
+    <string name="total_price">total price: </string>
+    <string name="speak">SPEAK</string>
+    <string name="sing_as">Sign in as: </string>
+    <string name="cart_items">CART ITEMS</string>
+</resources>
